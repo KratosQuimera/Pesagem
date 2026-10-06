@@ -1,0 +1,6 @@
+{
+  "name": "Pesagem de Resíduos HAOC",
+  "description": "Sistema profissional de registro, pesagem, histórico, relatórios e controle de resíduos do Hospital Alemão Oswaldo Cruz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

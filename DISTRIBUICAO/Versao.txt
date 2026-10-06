@@ -1,0 +1,20 @@
+====================================================
+SISTEMA DE PESAGEM DE RESÍDUOS HAOC
+HOSPITAL ALEMÃO OSWALDO CRUZ
+====================================================
+Versão: 1.0.0
+Data de Compilação: 2026-10-02
+Tecnologia: PWA + Offline IndexedDB + Standalone Desktop
+Padrão Regulatório: ANVISA RDC 222/2018 | CONAMA 358/2005
+
+Categorias Homologadas:
+1. COMUM (Grupo D)
+2. MIX (Recicláveis)
+3. COMPOSTAGEM (Orgânico)
+4. QUÍMICO (Grupo B)
+5. INFECTANTE (Grupo A)
+6. PERFUROCORTANTE (Grupo E)
+7. CNPH - LOGÍSTICA REVERSA (Especial)
+8. TAMPINHAS (Socioambiental)
+9. PEÇAS ANATÔMICAS (Grupo A)
+10. SUCATA ELETRÔNICA (Especial)

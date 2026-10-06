@@ -1,0 +1,27 @@
+======================================================================
+MANUAL DO USUÁRIO - OPERAÇÃO DE PESAGEM DE RESÍDUOS HAOC
+Hospital Alemão Oswaldo Cruz
+======================================================================
+
+OBJETIVO:
+Registrar de forma rápida, precisa e confiável a pesagem dos resíduos
+gerados nos setores assistenciais e administrativos do HAOC.
+
+FLUXO DE REGISTRO (EM 3 PASSOS):
+1. SELECIONAR A CATEGORIA:
+   Toque no cartão com o tipo de resíduo que está na balança
+   (Comum, Mix, Infectante, Químico, Perfurocortante, etc.).
+
+2. INFORMAR O PESO:
+   Digite o peso exibido no visor da balança utilizando o teclado touch na tela
+   ou os botões de atalho rápido (+0.5 kg, +1 kg, +5 kg, +10 kg).
+   O campo aceita vírgula ou ponto (ex: 24,50 kg).
+
+3. REGISTRAR PESAGEM:
+   Toque no botão grande "REGISTRAR PESAGEM".
+   A tela exibirá a confirmação verde com os detalhes salvos e retornará
+   automaticamente em 3 segundos para o próximo registro.
+
+CONSULTAS E RELATÓRIOS:
+- Histórico: Visualize todos os registros anteriores, pesquise por setor ou filtre por data.
+- Relatórios: Gere relatórios consolidados por dia, semana ou mês com exportação para Excel e CSV.

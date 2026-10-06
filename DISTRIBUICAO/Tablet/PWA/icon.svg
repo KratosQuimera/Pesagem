@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="haoc-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003566"/>
+      <stop offset="100%" stop-color="#001d3d"/>
+    </linearGradient>
+    <linearGradient id="haoc-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00A896"/>
+      <stop offset="100%" stop-color="#028090"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background Shield -->
+  <rect width="512" height="512" rx="104" fill="url(#haoc-blue)"/>
+  
+  <!-- Subtle circular accent -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="8"/>
+  
+  <!-- Scale & Medical Cross Motif -->
+  <g filter="url(#shadow)">
+    <!-- Central Cross Stem -->
+    <rect x="236" y="100" width="40" height="270" rx="12" fill="#FFFFFF"/>
+    
+    <!-- Balance Bar -->
+    <rect x="110" y="160" width="292" height="24" rx="12" fill="#FFFFFF"/>
+    
+    <!-- Left Scale Pan (Recycle/Waste) -->
+    <path d="M 120 184 L 100 280 C 100 310 160 310 160 280 Z" fill="url(#haoc-teal)"/>
+    <line x1="130" y1="184" x2="130" y2="280" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Right Scale Pan -->
+    <path d="M 392 184 L 352 280 C 352 310 412 310 412 280 Z" fill="url(#haoc-teal)"/>
+    <line x1="382" y1="184" x2="382" y2="280" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Scale Base / Medical Platform -->
+    <rect x="176" y="360" width="160" height="28" rx="10" fill="#FFFFFF"/>
+    <rect x="196" y="388" width="120" height="20" rx="8" fill="url(#haoc-teal)"/>
+    
+    <!-- Hospital Cross in center pivot -->
+    <circle cx="256" cy="172" r="28" fill="url(#haoc-teal)"/>
+    <path d="M 251 156 H 261 V 167 H 272 V 177 H 261 V 188 H 251 V 177 H 240 V 167 H 251 Z" fill="#FFFFFF"/>
+    
+    <!-- Leaf / Eco Waste Accent -->
+    <path d="M 256 90 C 230 65 200 80 205 110 C 220 110 245 105 256 90 Z" fill="#02C39A"/>
+  </g>
+  
+  <!-- Text Label Badge -->
+  <text x="256" y="455" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="28" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">HAOC RESÍDUOS</text>
+</svg>

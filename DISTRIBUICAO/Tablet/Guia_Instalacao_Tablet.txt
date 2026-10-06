@@ -1,0 +1,28 @@
+======================================================================
+GUIA DE INSTALAÇÃO EM TABLETS ANDROID E TOTENS
+Hospital Alemão Oswaldo Cruz - Gestão de Resíduos
+======================================================================
+
+1. REQUISITOS DO DISPOSITIVO:
+- Tablet com tela touchscreen de 8 a 12 polegadas (ou smartphone).
+- Navegador Google Chrome atualizado.
+- Conexão Wi-Fi apenas para o primeiro acesso (depois roda 100% offline).
+
+2. PASSO A PASSO DA INSTALAÇÃO:
+Passo 1: Conecte o tablet à rede Wi-Fi do hospital e abra o Chrome.
+Passo 2: Digite o endereço URL do sistema.
+Passo 3: Clique no botão azul "Instalar App" no cabeçalho ou abra o menu
+         do Chrome (três pontos verticais) e toque em "Instalar aplicativo".
+Passo 4: Toque em "Instalar" na janela de confirmação.
+Passo 5: Retorne à tela inicial do Android e localize o ícone "HAOC Pesagem".
+
+3. CONFIGURAÇÃO INICIAL DO TABLET:
+Na primeira inicialização, preencha:
+- Nome do Dispositivo: Ex. "Tablet Pesagem 01"
+- Local: Ex. "Área Central de Resíduos - Subsolo"
+- Operador: Nome ou equipe responsável pelo turno.
+
+4. MODO TOTEM TOUCHSCREEN:
+- Toque no botão "Modo Totem" para fixar o aplicativo em tela cheia.
+- O modo totem oculta relatórios e configurações, permitindo apenas a pesagem.
+- Para retornar ao painel administrativo, toque em "Administração" e digite o PIN: 1908.

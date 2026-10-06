@@ -1,0 +1,23 @@
+======================================================================
+MANUAL DO ADMINISTRADOR - SISTEMA PESAGEM HAOC
+Hospital Alemão Oswaldo Cruz - TI e Gestão Ambiental
+======================================================================
+
+1. ARQUITETURA DE PERSISTÊNCIA:
+O sistema utiliza banco de dados IndexedDB local no dispositivo ('haoc_pesagens_db').
+Os dados NÃO são voláteis: fechar o navegador, desligar o tablet ou atualizar
+a página NÃO apaga os registros.
+
+2. SEGURANÇA E AUDITORIA:
+- Todas as pesagens criadas, alteradas ou excluídas geram um log na tabela 'auditoria'.
+- Os registros de auditoria são imutáveis e incluem operador, data/hora e detalhes.
+- Exclusões de registros exigem justificativa obrigatória gravada em auditoria.
+
+3. POLÍTICA DE BACKUP:
+- Recomendado: exportar backup semanalmente na aba "Backup & Auditoria".
+- O arquivo gerado é um JSON estruturado com Checksum de integridade.
+- A restauração oferece modo de mesclagem ou substituição com confirmação prévia.
+
+4. MODO TOTEM:
+- O PIN administrativo padrão é 1908 (ano de fundação do Hospital Alemão Oswaldo Cruz).
+- O PIN pode ser alterado na aba "Configurações".
